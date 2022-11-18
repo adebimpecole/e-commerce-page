@@ -1,0 +1,55 @@
+.bigpic{
+    width: 100%;
+    border-radius: 10px;
+    height: 70%;
+    transition: .1s;
+}
+
+.gallery{
+   width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+}
+
+.smlpics{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    height: 18%;
+}
+
+.smlpicspan{
+    width: 21%;
+    height: 100%;
+    border-radius: 10%;
+    border: 2px solid white;
+    color: white;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.smlpicspan:hover{
+    opacity: 0.5;
+}
+
+.active{
+    opacity: 0.4;
+    border-radius: 9%;
+    width: 100%;
+    height: 100%;
+}
+
+.act{
+    border: 2.5px solid hsl(26, 100%, 55%);
+}
+
+.pic{
+    border-radius: 9%;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}

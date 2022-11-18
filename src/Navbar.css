@@ -1,0 +1,173 @@
+.Navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.rgt{
+    width: 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lft{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+    padding-right: 2%;
+    top: 0;
+}
+
+.subnav{
+    font-size: .9rem;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    color: hsl(219, 9%, 45%);
+    font-weight: 450;
+    cursor: pointer;
+}
+.subnav:hover{
+    color: black;
+    border-bottom: 3px solid hsl(26, 100%, 55%);;
+}
+
+.avatar{
+    width: 50%;
+    border-radius: 30px;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.avatar:hover{
+    border: 2px solid hsl(26, 100%, 55%);
+}
+
+.cartimg{
+    color: hsl(219, 9%, 45%);
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.cartimg:hover{
+    color: black;
+}
+
+.cartdiv{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    position: absolute;
+    background-color: white;
+    width: 23%;
+    height: 30%;
+    top: 9%;
+    right: 5%;
+    border-radius: 3%;
+}
+
+.crthd{
+    font-weight: 650;
+    width: 100%;
+    height: 25%;
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: left;
+    float: left;
+    font-size: 1rem;
+}
+
+.crtcntnt{
+    font-weight: 600;
+    padding: 0 5% 5% 5%;
+    width: 100%;
+    height: 70%;
+    font-size: .9rem;
+    color: hsl(219, 9%, 45%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.order{
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.miniimg{
+    width: 20%;
+    height: 100%;
+    border-radius: 8%;
+}
+
+.odrdets{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 0 4%;
+    gap: 10%;
+}
+
+.ordrnm{
+    font-size: .9rem;
+    padding-bottom: 3%;
+}
+
+.chckout{
+    background-color: hsl(26, 100%, 55%);
+    height: 35%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(25, 100%, 94%);
+    font-weight: 700;
+}
+
+.chckout:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.emptycrt{
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prce{
+    text-align: left;
+}
+
+.ttl{
+    color: black;
+    font-weight: bold;
+}
+
+.trash{
+    color: hsl(219, 9%, 45%);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.trash:hover{
+    color: black;
+}
