@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/adebimpecole/e-commerce-page.git)
 - Live Site URL: [Add live site URL here](https://friendly-gelato-07ecf6.netlify.app/)
 
 ## My process
